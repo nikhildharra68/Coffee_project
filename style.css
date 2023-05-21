@@ -1,0 +1,334 @@
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgba(255, 0, 0, 0.833);
+    border-radius: 25px;
+    color:white;
+    transition-duration: 1s;
+    transition-property: all ;
+}
+button:hover{
+    background-color: aliceblue;
+    color: aquamarine;
+    /* width: 150px; */
+    scale: 1.1;
+}
+
+body{
+    background-image: url(https://github.com/NAMAN547/coffee-website/blob/main/images/home-img.jpeg?raw=true);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    z-index: 100;
+}
+#front{
+    display:flex;
+    align-items: center;
+
+}
+h1{
+    font-size: 110px;
+    color:#DC4348;
+    font-family:'Times New Roman', Times, serif;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top:100px;
+    left:50px;
+    transition-duration: 1s;
+    transition-property: all ;
+}
+h1:hover{
+    transform:scale(1.1) ;
+}
+.logo{
+    height: 100px;
+    transform:translateY(-50px);
+    position: absolute;
+    left:500px;
+    transition-duration: 1s;
+    transition-property: all ;
+    
+    
+  }
+.logo:hover{
+    transform: scale(1.1);
+}
+h3{
+    font-size: 30px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+#bar{
+    width:90vw;
+    height: 80vh;
+    transform: translate(5vw,100vh);
+   background-color: #13131a;
+   display:grid;
+   grid-template-columns: 50vw 40vw;
+  
+
+}
+.content{
+    
+    display: grid;
+    grid-template-rows: 2fr 2fr 4fr;
+    padding: 50px;
+    align-items: center; 
+    justify-items: center;
+    justify-content: center;
+    
+}
+.boximg{
+    height: 80vh;
+    background-image: url(https://naman547.github.io/coffee-website/images/about-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about{
+   
+    color:aqua;
+    font-size: 60px;
+    position: absolute;
+    top:-10px;
+}
+.special{
+   
+    color: #DC4348;
+    font-size: 40px;
+   
+    
+    
+}
+.para{
+    color: white;
+    
+    
+   
+}
+#trans{
+    transition-duration: 1s;
+    transition-property: transform ;
+    
+    
+}
+#trans:hover{
+    transform: translateY(98vh);
+    background-color: #DC4348;
+    /* scale:1.1; */
+}
+.cake{
+    width:33vw;
+    height: 70vh;
+    position: absolute;
+    transform: translateY(100vh);
+    left:-4vw;
+}
+.choco{
+    width:33vw;
+    height: 70vh;
+    position: absolute;
+    transform: translateY(100vh);
+    left:29vw;
+}
+.cookie{
+    width:34vw;
+    height: 70vh;
+    position: absolute;
+    transform: translateY(100vh);
+    left:62vw;
+}
+
+#flex{
+    max-width: 100vw;
+    min-height: 150vh;
+    border:2px solid white;
+    
+    transform: translateY(100vh);
+    display:grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 2fr 2fr;
+    
+    grid-template-columns: repeat(auto-fit,minmax(370px,auto));
+
+    padding: 40px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    
+   
+}
+.cart{
+    width:330px;
+    height: 330px;
+    background-color: black;
+    border:2px solid #DC4348;
+    
+  
+    transition-duration: 1s;
+    transition-property: all;
+    display:grid;
+    grid-template-rows: 100px 70px  70px 70px;
+    
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+   
+  
+    
+
+}
+.cart:hover{
+   background-color: rgba(127, 255, 212, 0.841);
+   
+}
+#flex2{
+    max-width: 100vw;
+    min-height: 100vh;
+    border:2px solid white;
+    
+
+}
+#pro{
+    width:330px;
+   height: 450px;
+   display:grid;
+   grid-template-rows: 300px 60px  60px 60px;
+   grid-template-rows: repeat(auto-fit,minmax(auto,450px));
+}
+.product{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.dash{
+    width: 120vw;
+    height: 100vh;
+    
+    transform: translateY(380vh);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/539/571/751/coffee-cups-4k-best-for-pc-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: static;
+}
+#cafe{
+    width:40vw;
+    height: 40vh;
+    position: absolute;
+    transform: translateY(25vh);
+    left:3vw;
+    border-radius: 10px;
+   
+}
+h4{
+    font-size: 30px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+
+    
+}
+
+
+input{
+    width: 400px;
+    height: 40px;
+    transform:translateX(-690px);
+    border-radius: 50px;
+    
+    
+}
+header{
+    
+    background-color:rgba(0, 0, 0, 0.732);
+    height:15vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index:100;
+    
+}
+nav{
+   
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    
+    
+}
+
+.search{
+    transform: translate(-575px);
+}
+a{
+   color:white;
+   text-decoration: none;
+   font-size: 24px;
+   transform: translate(400px);
+
+}
+a:last-child{
+   position: absolute;
+   right: 100px;
+}
+a:hover{
+   color: white;
+   opacity: 0.9;
+     
+}
+
+
+
+
+
+p{
+    font-size: 20px;
+    color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+@media all and (max-width:1300px){
+   
+    nav{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:130px;
+        left:150px;
+     
+
+    }
+   
+    header{
+    
+        background-color:rgba(0, 0, 0, 0.732);
+        height:30vh;
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+     
+       
+    }
+    a:last-child{
+        position: relative;
+        left: 20px;
+     }
+  
+   
+}
+
